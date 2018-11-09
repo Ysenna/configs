@@ -1,0 +1,18 @@
+# Use Kernighan & Ritchie style linux braces.
+--style=kr
+
+# When used with --style=java, --style=kr, --style=stroustrup, --style=linux, or --style=1tbs, this breaks closing headers (e.g. 'else', 'catch', ...) from their immediately preceding closing braces
+--break-closing-brackets
+
+
+# Use 4 spaces indentation.
+--indent=spaces=4
+
+# Insert space padding around operators. This will also pad commas.
+--pad-oper
+
+#Insert space padding between a header (e.g. 'if', 'for', 'while'...) and the following paren
+--pad-header
+
+# Attach a pointer or reference operator (*, &, or ^) to variable name (right)
+--align-pointer=name

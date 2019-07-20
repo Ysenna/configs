@@ -2,7 +2,7 @@
 colorscheme peachpuff
 
 " Display line numbers on the left
-set number
+" set number
 
 " Enable syntax highlighting
 syntax on
@@ -45,6 +45,6 @@ hi Search ctermbg=LightMagenta
 hi Search ctermfg=Black
 
 " Highlight characters overflowing column 80
-hi ColorColumn ctermbg=Gray
-hi ColorColumn ctermfg=DarkRed
-au BufWinEnter * let w:m2=matchadd('ColorColumn', '\%>80v.\+', -1)
+" hi ColorColumn ctermbg=Gray
+" hi ColorColumn ctermfg=DarkRed
+" au BufWinEnter * let w:m2=matchadd('ColorColumn', '\%>80v.\+', -1)
